@@ -15,6 +15,7 @@ _Bob's Book Land website allows all users to read reviews and view info about Bo
 * Use phpmyadmin to import the database located at sites/db-backup.
 * Navigate to localhost (Windows users using WAMP) or localhost:8000 (Mac users using MAMP).
 * Login info: u:bookstore_admin / p:bookstore! & u:book_reviewer / p:bookstore!
+* Database: bookstore_database u:bookstore_admin / p:bookstore!
 
 
 ## Technologies Used
