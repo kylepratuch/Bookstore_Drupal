@@ -19,7 +19,7 @@ function book_review_ctools_plugin_api($module = NULL, $api = NULL) {
 function book_review_node_info() {
   $items = array(
     'book_review' => array(
-      'name' => t('Book Review'),
+      'name' => t('Book Title'),
       'base' => 'node_content',
       'description' => t('Book reviews from users'),
       'has_title' => '1',

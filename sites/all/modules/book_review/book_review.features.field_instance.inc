@@ -95,46 +95,6 @@ function book_review_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-book_review-field_book_title'.
-  $field_instances['node-book_review-field_book_title'] = array(
-    'bundle' => 'book_review',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => 'title of book being reviewed',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 3,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_book_title',
-    'label' => 'Book Title',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 1,
-    ),
-  );
-
   // Exported field_instance: 'node-book_review-field_rating'.
   $field_instances['node-book_review-field_rating'] = array(
     'bundle' => 'book_review',
@@ -175,13 +135,11 @@ function book_review_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Book Author');
-  t('Book Title');
   t('Rating');
   t('Review Body');
   t('author of book being reviewed');
   t('body text of the review');
   t('overall book rating');
-  t('title of book being reviewed');
 
   return $field_instances;
 }
